@@ -1,0 +1,146 @@
+*{
+    box-sizing : border-box;
+    padding : 0;
+    margin : 0;
+}
+.navbar{
+    display : flex;
+    align-items : center;
+    height : 50px;
+    width : 100%;
+    padding : 10px ;
+    border : 4px solid black;
+    position: fixed;
+    top : 0;
+    overflow : hidden;
+    background: rgb(61, 60, 60);
+}
+.menus{
+    display : flex;
+    list-style: none;
+    text-decoration: none;
+    padding : 4px;
+    margin : 10px;
+    float : right;
+}
+
+.main{
+    width : 100%;
+    margin-top : 40px;
+    /* margin-inline : 10px; */
+    
+}
+.img{
+    width : 100%;
+    margin : 10px auto;
+}
+
+.list{
+    padding : 4px;
+    margin-right : 30px;    
+}
+
+.list:hover{
+    border-bottom : 1px solid grey;
+    transition: 1.5ms;
+    
+}
+
+.leftside{
+    width: 600px ;
+    margin : 10px;
+    margin-left : 10px;   
+}
+
+
+.anchor{
+    color : whitesmoke;
+    list-style: none;
+    text-decoration: none;
+}
+.rightside{
+    width : 100%;
+}
+.comapany{
+    color : white ;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.comapany:hover{
+    font-size: 18px;
+    text-shadow: 1px solid grey;
+}
+#Epicure{
+    font-size: 40px;
+    font-weight: 10px;
+    font-style: bold;
+}
+
+.paragraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+.learn{
+    padding : 10px;
+    width : 100px;
+    background: black;
+    color : white;
+}
+.main-left{
+    width : 600px;
+    margin: 20px;
+    padding : 10px;
+}
+
+.learn:hover{
+    border : 2px solid rgb(241, 235, 235);
+}
+.upper{
+    display: flex;
+}
+
+.right{
+    margin : 30px auto;
+}
+
+.maincontent{
+    display :flex;
+     flex-wrap : wrap;
+    justify-content: center;
+
+}
+.discount{
+    z-index: 2;
+    position : absolute;
+    border : 1px solid grey;
+    background-color: black;
+    color: antiquewhite;
+}
+.section-heading{
+    margin-left : 20px;
+    font-size: 30px;
+}
+
+.img2{
+    margin : 20px;
+    width : 400px;
+    height : 250px;
+    object-fit : fill;
+    border-radius: 10px;
+    transition : 400ms;
+    cursor : pointer;
+    
+}
+.img2:hover{
+    box-shadow : 4px 7px 7px 0px rgb(78, 74, 74);
+}
+
+.img3{
+    transform :rotate(-45deg);
+}
